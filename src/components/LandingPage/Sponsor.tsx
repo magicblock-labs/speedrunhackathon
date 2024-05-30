@@ -53,7 +53,7 @@ import {
   MetaCamp,
   SolShield,
   GameShift,
-  Cubik, Gum, Backpack, Raindrops, SolanaMobile, Nokiamon, Metaplex, Turbo
+  Cubik, Gum, Backpack, Raindrops, SolanaMobile, Nokiamon, Metaplex, Turbo, The76Devs
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -123,6 +123,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Poolprops />;
     case 'Lamport DAO':
       return <LamportDAO />;
+    case 'The 76 Devs':
+      return <The76Devs />;
     case 'Civic':
       return <Civic />;
     case 'Reciprocal':

@@ -4,7 +4,7 @@ const config: ConfigInterface = {
   general: {
     name: 'Solana Speedrun',
     domain: 'https://solanaspeedrun.com/',
-    twitterHandle: '@lamportDAO',
+    twitterHandle: '@magicblock',
   },
 };
 

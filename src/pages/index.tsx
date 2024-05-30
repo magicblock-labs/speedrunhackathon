@@ -11,7 +11,7 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import TracksAndPrizes from '../components/LandingPage/TracksAndPrizes';
-import {Pixel} from '../components/FontFamily';
+import {Triforce} from '../components/FontFamily';
 import { FaDiscord } from 'react-icons/fa';
 import MainTracks from '../components/MainTracks/MainTracks';
 import { BrowserName } from '../broswerName';
@@ -52,7 +52,7 @@ export default function Home() {
             lineHeight={['58px', '72px', '90px', '130px', '130px']}
             textAlign={'center'}
             fontWeight={'800'}
-            fontFamily={Pixel.style.fontFamily}
+            fontFamily={Triforce.style.fontFamily}
           >
             {/*<Box as='span'>Speedrun</Box>*/}
             <Image src='./speedrun.svg' alt="Speedrun" width='900' height='500' />
@@ -63,7 +63,7 @@ export default function Home() {
             fontSize={{ base: '16px', sm: '18px', md: '28px' }}
             fontWeight='500'
             maxW='4xl'
-            fontFamily={Pixel.style.fontFamily}
+            fontFamily={Triforce.style.fontFamily}
             textAlign={'center'}
           >
             <br/>
@@ -118,15 +118,15 @@ export default function Home() {
         <Center>
           <PresentedBy />
         </Center>
+        <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
+          <GrandPrize />
+        </Center>
         <Center>
           <HeadingTotalPrize />
         </Center>
-        <Center pb='10rem' id='track'>
-          {BrowserName() === 'firefox' ? '' : <MainTracks />}
-        </Center>
-        <Center>
-          <GrandPrize />
-        </Center>
+        {/*<Center pb='10rem' id='track'>*/}
+        {/*  {BrowserName() === 'firefox' ? '' : <MainTracks />}*/}
+        {/*</Center>*/}
         <Center>
           <TracksAndPrizes />
         </Center>

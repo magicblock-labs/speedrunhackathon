@@ -10,7 +10,7 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import { Inktrap } from '../FontFamily';
+import {Inktrap, Triforce} from '../FontFamily';
 import { faqType } from '../../../interfaces/faq';
 import { FiExternalLink } from 'react-icons/fi';
 import Sponsor from './Sponsor';
@@ -44,6 +44,7 @@ const CardMobile = ({ faq }: PropsType) => {
         <Heading
           fontWeight={'700'}
           fontSize={{ base: '14px', md: '18px' }}
+          fontFamily={Triforce.style.fontFamily}
           noOfLines={1}
         >
           {faq ? faq?.Question : 'Hello World'}
@@ -73,7 +74,6 @@ const CardMobile = ({ faq }: PropsType) => {
             <VStack pt={'0rem'} fontSize='xl' alignItems={'start'}>
 
               <Text
-                fontFamily={Inktrap.style.fontFamily}
                 fontSize={{ base: 'sm', md: 'md' }}
                 pt='0.4rem'
               >
@@ -88,7 +88,6 @@ const CardMobile = ({ faq }: PropsType) => {
                       as='a'
                       href={link.Link}
                       target={'_blank'}
-                      fontFamily={Inktrap.style.fontFamily}
                       backdropFilter='blur(10px)'
                       backgroundColor='rgba(255, 255, 255, 0.10)'
                       rounded={'full'}

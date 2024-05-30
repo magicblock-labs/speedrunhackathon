@@ -5,7 +5,7 @@ import Sponsor from './Sponsor';
 const presentersNames = [
   'Magicblock',
   'Solana Foundation',
-  'Lamport DAO',
+  'The 76 Devs',
 ];
 const PresentedBy = () => {
   return (

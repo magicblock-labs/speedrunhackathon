@@ -13,10 +13,9 @@ import React, {useState} from 'react';
 import TracksModalBody from './ModalBody';
 import tracksData from '../../data/tracks.json';
 import {trackType} from '../../../interfaces/track';
-import GlobalPrizes from './GlobalPrizes';
 import CardMobile from './CardMobile';
 import CardDesktop from './CardDesktop';
-import {Inktrap, Pixel} from '../FontFamily';
+import {Triforce} from '../FontFamily';
 
 function getTotalTrackPrize(trackArray: any) {
     let totalTrackPrize = 9000 + 5000 + 2000;
@@ -66,7 +65,7 @@ const TracksAndPrizes = () => {
                     bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
                     bgClip={'text'}
                     py='2rem'
-                    fontFamily={Pixel.style.fontFamily}
+                    fontFamily={Triforce.style.fontFamily}
                     mx='auto'
                     maxW='fit-content'
                     fontSize={{base: '4xl', md: '6xl'}}
@@ -82,7 +81,7 @@ const TracksAndPrizes = () => {
                     direction={'row'}
                     justify={'center'}
                     alignItems='center'
-                    fontFamily={Pixel.style.fontFamily}
+                    fontFamily={Triforce.style.fontFamily}
                     textAlign='center'
                 >
                     {tracksData.map((track, index) => {

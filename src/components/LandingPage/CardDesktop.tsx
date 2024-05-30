@@ -2,7 +2,7 @@ import { Heading, HStack, Text, VStack, WrapItem } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
 import { trackType } from '../../../interfaces/track';
 import { BrowserName } from '../../broswerName';
-import {Pixel} from "../FontFamily";
+import {Inktrap, Triforce} from "../FontFamily";
 
 function kFormatter(num: number): any {
   return Math.abs(num) > 999
@@ -97,13 +97,13 @@ const CardDesktop = ({
         <Heading
           fontWeight={'700'}
           fontSize={{ base: '18px', md: '24px' }}
-          fontFamily={Pixel.style.fontFamily}
+          fontFamily={Triforce.style.fontFamily}
           noOfLines={1}
           textAlign='center'
         >
           {track ? track?.Name : ''}
         </Heading>
-        <HStack alignItems={'flex-end'} justifyContent={'space-between'} textAlign='center' alignContent='center'>
+        <HStack alignItems={'center'} justifyContent={'space-between'} textAlign='center' alignContent='center'>
           <Heading
             bgGradient={
               'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
@@ -111,7 +111,7 @@ const CardDesktop = ({
             bgClip={'text'}
             fontSize={{ base: '2xl', sm: '3xl', md: '3xl' }}
             fontWeight='700'
-            fontFamily={Pixel.style.fontFamily}
+            fontFamily={Inktrap.style.fontFamily}
           >
             {track?.PrizeUnit === 'BONK'
               ? (track?.PrizeWorth + 'B')
@@ -119,13 +119,13 @@ const CardDesktop = ({
               (track?.PrizeWorth + 'm') :
               (track?.PrizeWorth)
               ? `${kFormatter(track.PrizeWorth)}`
-              : 'TBA'}
+              : ''}
           </Heading>
           <Text
             fontSize={{ base: '1rem', md: '1.5rem' }}
             fontWeight={'600'}
             pl="1rem"
-            fontFamily={Pixel.style.fontFamily}
+            fontFamily={Triforce.style.fontFamily}
             alignItems='center'
             textAlign='center'
           >

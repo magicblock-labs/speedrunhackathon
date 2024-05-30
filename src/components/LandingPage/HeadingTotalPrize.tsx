@@ -11,7 +11,7 @@ import {
 import React, { useState } from 'react';
 import TracksModalBody from './ModalBody';
 import { trackType } from '../../../interfaces/track';
-import {Pixel} from '../FontFamily';
+import {Triforce} from '../FontFamily';
 import TotalPrize from "./TotalPrize";
 
 function getTotalTrackPrize(trackArray: any) {
@@ -58,9 +58,9 @@ const HeadingTotalPrize = () => {
           </ModalBody>
         </ModalContent>
       </Modal>
-      <Center flexDirection={'column'} maxW={'4xl'} py='2rem' pt={{ base: '20vh', md: '20vh' }}>
+      <Center flexDirection={'column'} maxW={'4xl'} py='2rem' pt={{ base: '2vh', md: '2vh' }}>
         <Heading
-          py='2rem'
+          py='0rem'
           pl='2rem'
           pr='2rem'
           mb='4rem'
@@ -68,10 +68,10 @@ const HeadingTotalPrize = () => {
           maxW='fit-content'
           fontSize={{ base: '3xl', md: '4xl' }}
           fontWeight='800'
-          fontFamily={Pixel.style.fontFamily}
+          fontFamily={Triforce.style.fontFamily}
           textAlign='center'
         >
-          The GameJam theme is: <br/><br/> <Text fontSize={{ base: '4xl', md: '6xl' }}> 💀 Death is Temporary 💙 </Text>
+          The GameJam theme will be announced <br/> before the event starts<Text fontSize={{ base: '4xl', md: '7xl' }}>👾️</Text>
         </Heading>
         <br/>
         <br/>

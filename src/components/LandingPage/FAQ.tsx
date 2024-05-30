@@ -12,7 +12,7 @@ import React, {useState} from 'react';
 import TracksModalBody from './ModalBody';
 import faqData from '../../data/faq.json';
 import {trackType} from '../../../interfaces/track';
-import {Pixel} from '../FontFamily';
+import {Triforce} from '../FontFamily';
 import CardFAQ from "./CardFAQ";
 import {faqType} from "../../../interfaces/faq";
 
@@ -50,7 +50,7 @@ const FAQ = () => {
                     bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
                     bgClip={'text'}
                     py='2rem'
-                    fontFamily={Pixel.style.fontFamily}
+                    fontFamily={Triforce.style.fontFamily}
                     mx='auto'
                     maxW='fit-content'
                     fontSize={{base: '4xl', md: '6xl'}}

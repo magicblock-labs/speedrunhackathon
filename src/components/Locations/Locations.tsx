@@ -1,7 +1,7 @@
 import {Container, Heading, Stack} from '@chakra-ui/react';
-import {Pixel} from '../FontFamily';
+import {Triforce} from '../FontFamily';
 import React from 'react';
-import {NewYorkCard, BelgradeCard, SingaporeCard, SF} from './ImageCard';
+import {NewYorkCard, TurkeyCard, SingaporeCard} from './ImageCard';
 
 const Locations = () => {
     return (
@@ -9,7 +9,7 @@ const Locations = () => {
             <Heading
                 bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
                 bgClip={'text'}
-                fontFamily={Pixel.style.fontFamily}
+                fontFamily={Triforce.style.fontFamily}
                 mx='auto'
                 maxW='fit-content'
                 py='2rem'
@@ -30,6 +30,8 @@ const Locations = () => {
                 flexDir={{base: 'column', lg: 'row'}}
             >
                 <SingaporeCard/>
+                <TurkeyCard/>
+                <NewYorkCard/>
             </Stack>
         </Container>
     );

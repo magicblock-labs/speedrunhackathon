@@ -1611,6 +1611,13 @@ const LamportDAO = () => {
     </Center>
   );
 };
+const The76Devs = () => {
+  return (
+      <Center h={{ base: '1rem', md: '2rem' }} w={{ base: '3rem', md: '6rem' }}>
+        <Image src='/76.png' alt='speedrun' width={240} height={155} />
+      </Center>
+  );
+};
 const Chainflow = () => {
   return (
     <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '9rem' }}>
@@ -3150,6 +3157,7 @@ const SolanaMobile = () => {
 export {
   Helius,
   LamportDAO,
+  The76Devs,
   Superteam,
   Eclipse,
   SolanaFoundation,

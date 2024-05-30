@@ -10,7 +10,7 @@ import {
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { BrowserName } from '../../broswerName';
-import {Pixel} from "../FontFamily";
+import {Triforce} from "../FontFamily";
 
 const handleClickScroll = () => {
     const element = document.getElementById('track');
@@ -54,7 +54,7 @@ const FullyOnChainCard = () => {
           mb='1rem'
           fontWeight={'700'}
           fontSize={{ base: '2xl', md: '2.5xl' }}
-          fontFamily={Pixel.style.fontFamily}
+          fontFamily={Triforce.style.fontFamily}
         >
             Fully on-chain
         </Text>
@@ -90,7 +90,7 @@ const FullyOnChainCard = () => {
             h={{ base: 'auto', md: '3rem' }}
             // overflow='hidden'
           >
-            <Text whiteSpace={'nowrap'} fontWeight={'700'} fontSize='lg' fontFamily={Pixel.style.fontFamily}>
+            <Text whiteSpace={'nowrap'} fontWeight={'700'} fontSize='lg' fontFamily={Triforce.style.fontFamily}>
               Fully on-chain
             </Text>
             <Center
@@ -211,7 +211,7 @@ const SolanaIntegratedCard = () => {
           mb='1rem'
           fontWeight={'700'}
           fontSize={{ base: '2xl', md: '2.5xl' }}
-          fontFamily={Pixel.style.fontFamily}
+          fontFamily={Triforce.style.fontFamily}
         >
           Solana-integrated
         </Text>
@@ -252,7 +252,7 @@ const SolanaIntegratedCard = () => {
             // overflow='hidden'
           >
             <Text fontWeight={'700'} fontSize='lg'
-                  fontFamily={Pixel.style.fontFamily}>
+                  fontFamily={Triforce.style.fontFamily}>
               Solana-integrated
             </Text>
             <Center
