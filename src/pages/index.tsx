@@ -36,7 +36,7 @@ export default function Home() {
     <>
       <SEO
         title={`${config.general.name}`}
-        description={`${config.general.name} is a virtual hackathon organized by LamportDAO and Magicblock from December 12 - 17, 2023.`}
+        description={`${config.general.name} is a virtual hackathon organized by 76Devs and Magicblock from June 29 - July 5, 2024.`}
         image={`https://solanaspeedrun.com/speedrun.jpg`}
       />
       <Container maxW={'8xl'} p='0' >
