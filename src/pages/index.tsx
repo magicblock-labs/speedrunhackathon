@@ -36,7 +36,7 @@ export default function Home() {
     <>
       <SEO
         title={`${config.general.name}`}
-        description={`${config.general.name} is a virtual hackathon organized by 76Devs and Magicblock from June 29 - July 5, 2024.`}
+        description={`${config.general.name} is a virtual hackathon organized by 76Devs and Magicblock from June 29th - July 5th, 2024.`}
         image={`https://solanaspeedrun.com/speedrun.jpg`}
       />
       <Container maxW={'8xl'} p='0' >
@@ -67,13 +67,13 @@ export default function Home() {
             textAlign={'center'}
           >
             <br/>
-            Solana Game Jam - 3rd edition{' '}
+            Game Jam{' '}
             <br/>
             <Box as='span'  color={'white'}>
               <br/>
               June 29th - July 5th
             </Box>{' '}
-            {/*presented by LamportDAO & Magicblock*/}
+            {/*presented by 76Devs & MagicBlock*/}
           </Text>
           <HStack
             mt='2rem'
