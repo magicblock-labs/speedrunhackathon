@@ -66,26 +66,26 @@ const TracksModalBody = ({
         alignItems={'end'}
         justifyContent={'space-between'}
       >
-        <Heading
-          bgGradient={
-            'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
-          }
-          fontFamily={Triforce.style.fontFamily}
-          bgClip={'text'}
-          lineHeight={'70px'}
-          fontSize={{ base: '44px', md: '52px' }}
-          fontWeight='700'
-        >
-          {track
-            ? `${
-                track?.PrizeUnit === 'BONK'
-                  ? track?.PrizeWorth + 'B'
-                  : track?.PrizeUnit === 'BLZE' || track?.PrizeUnit === 'RAIN'?
-                  (track?.PrizeWorth + 'm')
-                  : track?.PrizeWorth
-              }`
-            : '00k'}
-        </Heading>
+        {/*<Heading*/}
+        {/*  bgGradient={*/}
+        {/*    'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'*/}
+        {/*  }*/}
+        {/*  fontFamily={Triforce.style.fontFamily}*/}
+        {/*  bgClip={'text'}*/}
+        {/*  lineHeight={'70px'}*/}
+        {/*  fontSize={{ base: '44px', md: '52px' }}*/}
+        {/*  fontWeight='700'*/}
+        {/*>*/}
+        {/*  {track*/}
+        {/*    ? `${*/}
+        {/*        track?.PrizeUnit === 'BONK'*/}
+        {/*          ? track?.PrizeWorth + 'B'*/}
+        {/*          : track?.PrizeUnit === 'BLZE' || track?.PrizeUnit === 'RAIN'?*/}
+        {/*          (track?.PrizeWorth + 'm')*/}
+        {/*          : track?.PrizeWorth*/}
+        {/*      }`*/}
+        {/*    : '00k'}*/}
+        {/*</Heading>*/}
         <Text
             fontSize={{ base: '16px', md: '1.5rem' }}
             pb='0.5rem'
