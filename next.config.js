@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         source: "/register",
-        destination: "https://dorahacks.io/hackathon/solanaspeedrun/detail",
+        destination: "#register",
         permanent: false
       }
     ]

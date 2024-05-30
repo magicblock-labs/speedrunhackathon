@@ -67,11 +67,11 @@ export default function Home() {
             textAlign={'center'}
           >
             <br/>
-            Solana Game Jam - 2nd edition{' '}
+            Solana Game Jam - 3rd edition{' '}
             <br/>
             <Box as='span'  color={'white'}>
               <br/>
-              December 12th - 17th
+              June 29th - July 5th
             </Box>{' '}
             {/*presented by LamportDAO & Magicblock*/}
           </Text>
@@ -94,10 +94,10 @@ export default function Home() {
               variant='gradient'
              // onClick={handleClickScroll}
               as='a'
-              href='https://dorahacks.io/hackathon/solanaspeedrun/detail'
+              href='#register'
               target={'_blank'}
             >
-              Submit
+              Register
             </Button>
             <Button
               as='a'

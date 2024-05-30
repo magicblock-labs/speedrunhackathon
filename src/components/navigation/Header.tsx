@@ -33,7 +33,7 @@ export default function Header() {
         href="https://dorahacks.io/hackathon/solanaspeedrun/detail"
         className="luma-checkout--button"
       >
-        Submit
+        Register
       </Button>
     </Flex>
   );
