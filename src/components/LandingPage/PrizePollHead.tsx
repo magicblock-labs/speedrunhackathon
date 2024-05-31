@@ -121,7 +121,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         pt={'1rem'}
         fontSize={{ base: 'md', md: 'lg' }}
       >
-        across main and sponsored tracks, distributed by community voting and sponsors.
+        in addition to Special Tracks. Prizes will be awarded by a committee of judges.
       </Text>
 
       {/*<Wrap pt='0.5rem' spacing='0.6rem' fontWeight={'500'} fontSize='md'>*/}
