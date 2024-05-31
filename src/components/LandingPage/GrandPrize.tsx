@@ -45,8 +45,12 @@ const GrandPrize = () => {
             textAlign='center'
         >
 
-          Learn how to build unstoppable games <br/>
-          to be eligible for the main track prizes <br/>
+          <div>
+            Learn how to build <a target={'_blank'} href={'https://docs.magicblock.gg/Forever%20Games'}  style={{color: 'inherit', textDecoration: 'none'}} onMouseOver={e => e.currentTarget.style.color = '#F00000'} onMouseOut={e => e.currentTarget.style.color = 'inherit'} rel="noreferrer">unstoppable games</a>
+          </div>
+          <div>
+            to be eligible for the main track prizes
+          </div>
 
           <br/>
           <br/>
@@ -58,7 +62,7 @@ const GrandPrize = () => {
           </ul>
 
         </Wrap>
-        <Center mt={{base: '3rem', md: '6rem'}} h={{ base: '3rem', md: '4rem' }} w={{ base: '12rem', md: '20rem' }}>
+        <Center mt={{base: '3rem', md: '6rem'}} h={{base: '3rem', md: '4rem'}} w={{base: '12rem', md: '20rem'}}>
           <Image src='/spaceships.png' alt='speedrun' width={800} height={800} />
         </Center>
       </Center>
