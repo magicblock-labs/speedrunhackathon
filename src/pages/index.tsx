@@ -60,9 +60,9 @@ export default function Home() {
           <Text
             px='1rem'
             pt={{ base: '0rem', md: '0rem' }}
-            fontSize={{ base: '16px', sm: '18px', md: '28px' }}
+            fontSize={{ base: '16px', sm: '22px', md: '34px' }}
             fontWeight='500'
-            maxW='4xl'
+            maxW='6xl'
             fontFamily={Triforce.style.fontFamily}
             textAlign={'center'}
           >
@@ -70,10 +70,8 @@ export default function Home() {
             Game Jam{' '}
             <br/>
             <Box as='span'  color={'white'}>
-              <br/>
               June 29th - July 5th
             </Box>{' '}
-            {/*presented by 76Devs & MagicBlock*/}
           </Text>
           <HStack
             mt='2rem'
@@ -90,7 +88,8 @@ export default function Home() {
               alignItems='start'
               justifyContent={'center'}
               fontSize={{ base: '16px', md: '18px' }}
-              lineHeight='24px'
+              fontFamily={Triforce.style.fontFamily}
+              lineHeight='14px'
               variant='gradient'
              // onClick={handleClickScroll}
               as='a'
@@ -108,7 +107,8 @@ export default function Home() {
               alignItems='start'
               justifyContent={'center'}
               fontSize={{ base: '16px', md: '18px' }}
-              lineHeight='24px'
+              lineHeight='14px'
+              fontFamily={Triforce.style.fontFamily}
               rightIcon={<FaDiscord />}
             >
               Join Discord

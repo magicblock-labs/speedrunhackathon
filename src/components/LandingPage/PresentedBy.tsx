@@ -4,8 +4,8 @@ import { Inktrap } from '../FontFamily';
 import Sponsor from './Sponsor';
 const presentersNames = [
   'Magicblock',
-  'Solana Foundation',
   'The 76 Devs',
+  'Solana Foundation',
 ];
 const PresentedBy = () => {
   return (
