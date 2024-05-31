@@ -60,7 +60,7 @@ export default function Home() {
           <Text
             px='1rem'
             pt={{ base: '2rem', md: '3rem' }}
-            fontSize={{ base: '16px', sm: '3px', md: '4.5rem' }}
+            fontSize={{ base: '2.5rem', md: '4.5rem' }}
             fontWeight='500'
             maxW='6xl'
             fontFamily={Triforce.style.fontFamily}
@@ -75,7 +75,7 @@ export default function Home() {
                 as='span'
                 color={'white'}
                 textShadow="none"
-                fontSize={{ base: '16px', sm: '2.5px', md: '3rem' }}
+                fontSize={{ base: '2rem', md: '3rem' }}
             >
               June 29th - July 5th
             </Box>{' '}
