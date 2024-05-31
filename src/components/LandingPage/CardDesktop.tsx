@@ -69,7 +69,7 @@ const CardDesktop = ({
           width: '5rem',
           height: '5rem',
           filter: 'blur(70px)',
-          backgroundColor: 'rgba(173, 166, 240, 0.9);',
+          backgroundColor: 'rgba(1, 63, 50, 0.9);',
         }}
         _after={{
           content: `" "`,
@@ -84,7 +84,7 @@ const CardDesktop = ({
         }}
         w={{ base: '85vw', sm: '38vw', md: '18rem' }}
         alignItems={'start'}
-        background={'rgba(88, 82, 139, 0.2)'}
+        background={'rgba(255, 255, 255, 0.1)'}
         sx={{
           backdropFilter: 'blur(14px)',
           margin: '0px !important',

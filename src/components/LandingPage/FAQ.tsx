@@ -32,7 +32,7 @@ const FAQ = () => {
                 <ModalOverlay/>
                 <ModalContent
                     rounded={'3xl'}
-                    background={'rgba(88, 82, 139, 0.2)'}
+                    background={'rgba(255, 255, 255, 0.1)'}
                     sx={{
                         backdropFilter: 'blur(20px)',
                     }}

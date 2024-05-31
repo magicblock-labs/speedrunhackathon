@@ -31,7 +31,7 @@ const CardMobile = ({ faq }: PropsType) => {
         overflow='hidden'
         w={{ base: '85vw', sm: '90vw', md: '38rem' }}
         alignItems={'start'}
-        background={'rgba(88, 82, 139, 0.2)'}
+        background={'rgba(255, 255, 255, 0.1)'}
         sx={{
           backdropFilter: 'blur(14px)',
           margin: '0px !important',

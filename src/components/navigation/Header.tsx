@@ -30,14 +30,13 @@ export default function Header() {
         display={'flex'}
         alignItems='start'
         height={{ base: '2.2rem', md: '2.5rem' }}
-        fontSize={{ base: '14px', md: '18px' }}
         fontSize={{ base: '16px', md: '18px' }}
         fontFamily={Triforce.style.fontFamily}
         lineHeight='14px'
         href="#register"
         className="luma-checkout--button"
       >
-        Register
+        signup
       </Button>
     </Flex>
   );
