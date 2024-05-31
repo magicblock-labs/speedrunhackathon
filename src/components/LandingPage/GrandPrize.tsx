@@ -13,11 +13,11 @@ const GrandPrize = () => {
 
   return (
     <>
-      <Center flexDirection={'column'} maxW={'4xl'} py='4rem'>
+      <Center flexDirection={'column'} maxW={'4xl'} py={{ base: '0rem', md: '4rem' }}>
         <Heading
             bgGradient={`linear-gradient(90deg, #570303 35.03%, #570303 1.2%, #C80404 109.33%);`}
             bgClip={'text'}
-            py='2rem'
+            py={{ base: '0rem', md: '2rem' }}
             fontFamily={Triforce.style.fontFamily}
             mx='auto'
             color={'#8B041D'}
@@ -25,8 +25,11 @@ const GrandPrize = () => {
             maxW='fit-content'
             fontSize={{ base: '4xl', md: '6xl' }}
             fontWeight='800'
+            textAlign={'center'}
+            margin={'auto'}
+            justifyContent={'center'}
+            alignItems={'center'}
             textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
-            //text-shadow="-1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF"
         >
           UNSTOPPABLE GAMES
         </Heading>

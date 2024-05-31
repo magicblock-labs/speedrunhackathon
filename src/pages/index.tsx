@@ -39,7 +39,7 @@ export default function Home() {
       />
       <Container maxW={'8xl'} p='0' >
         <VStack
-          py={['10vh', '5rem', '8rem', '8rem', '6rem']}
+          py={['8vh', '5rem', '8rem', '8rem', '6rem']}
           mx='auto'
           pl='2rem'
           pr='2rem'
@@ -57,7 +57,7 @@ export default function Home() {
           </Heading>
           <Text
             px='1rem'
-            pt={{ base: '2rem', md: '3rem' }}
+            pt={{ base: '1rem', md: '3rem' }}
             fontSize={{ base: '2.5rem', md: '4.5rem' }}
             fontWeight='500'
             maxW='6xl'
@@ -143,7 +143,7 @@ export default function Home() {
         <Center>
           <FAQ />
         </Center>
-        <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
+        <Center py={{ base: '2rem', md: '12rem' }} px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
           <SponsorsSection />
         </Center>
         <Center>

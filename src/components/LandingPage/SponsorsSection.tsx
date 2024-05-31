@@ -23,7 +23,7 @@ const SponsorsSection = () => {
                 fontFamily={Triforce.style.fontFamily}
                 mx='auto'
                 maxW='fit-content'
-                py='2rem'
+                py={{ base: '0', md: '2rem' }}
                 fontSize={{ base: '4xl', md: '6xl' }}
                 color={'#8B041D'}
                 textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
