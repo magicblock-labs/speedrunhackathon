@@ -5,12 +5,12 @@ const nextConfig = {
     return [
       {
         source: "/discord",
-        destination: "https://discord.gg/QkAKqqBkaq",
+        destination: "https://discord.gg/tEmz8FHAAa",
         permanent: false
       },
       {
         source: "/register",
-        destination: "https://dorahacks.io/hackathon/solanaspeedrun/detail",
+        destination: "#register",
         permanent: false
       }
     ]

@@ -50,15 +50,15 @@ export const Inktrap = localFont({
   ],
 });
 
-export const Pixel = localFont({
+export const Triforce = localFont({
   src: [
     {
-      path: '../../public/fonts/pixel.woff2',
+      path: '../../public/fonts/triforce.woff2',
       weight: '100',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/pixel.woff2',
+      path: '../../public/fonts/triforce.woff2',
       weight: '800',
       style: 'normal',
     }

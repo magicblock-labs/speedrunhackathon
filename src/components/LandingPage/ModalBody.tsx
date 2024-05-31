@@ -13,7 +13,7 @@ import {
   ListIcon,
 } from '@chakra-ui/react';
 import React from 'react';
-import {Inktrap, Pixel} from '../FontFamily';
+import {Inktrap, Triforce} from '../FontFamily';
 import { trackType } from '../../../interfaces/track';
 import Sponsor from './Sponsor';
 import { FiExternalLink } from 'react-icons/fi';
@@ -42,7 +42,7 @@ const TracksModalBody = ({
       >
         <Heading
           pt='0.5rem'
-          fontFamily={Pixel.style.fontFamily}
+          fontFamily={Triforce.style.fontFamily}
           fontSize={{ base: '22px', md: '26px' }}
         >
           {track ? track?.Name : 'Hello World'}
@@ -66,31 +66,31 @@ const TracksModalBody = ({
         alignItems={'end'}
         justifyContent={'space-between'}
       >
-        <Heading
-          bgGradient={
-            'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
-          }
-          fontFamily={Pixel.style.fontFamily}
-          bgClip={'text'}
-          lineHeight={'70px'}
-          fontSize={{ base: '44px', md: '52px' }}
-          fontWeight='700'
-        >
-          {track
-            ? `${
-                track?.PrizeUnit === 'BONK'
-                  ? track?.PrizeWorth + 'B'
-                  : track?.PrizeUnit === 'BLZE' || track?.PrizeUnit === 'RAIN'?
-                  (track?.PrizeWorth + 'm')
-                  : track?.PrizeWorth
-              }`
-            : '00k'}
-        </Heading>
+        {/*<Heading*/}
+        {/*  bgGradient={*/}
+        {/*    'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'*/}
+        {/*  }*/}
+        {/*  fontFamily={Triforce.style.fontFamily}*/}
+        {/*  bgClip={'text'}*/}
+        {/*  lineHeight={'70px'}*/}
+        {/*  fontSize={{ base: '44px', md: '52px' }}*/}
+        {/*  fontWeight='700'*/}
+        {/*>*/}
+        {/*  {track*/}
+        {/*    ? `${*/}
+        {/*        track?.PrizeUnit === 'BONK'*/}
+        {/*          ? track?.PrizeWorth + 'B'*/}
+        {/*          : track?.PrizeUnit === 'BLZE' || track?.PrizeUnit === 'RAIN'?*/}
+        {/*          (track?.PrizeWorth + 'm')*/}
+        {/*          : track?.PrizeWorth*/}
+        {/*      }`*/}
+        {/*    : '00k'}*/}
+        {/*</Heading>*/}
         <Text
             fontSize={{ base: '16px', md: '1.5rem' }}
             pb='0.5rem'
             fontWeight={'600'}
-            fontFamily={Pixel.style.fontFamily}
+            fontFamily={Triforce.style.fontFamily}
         >
           {track ? `${track?.PrizeUnit}` : 'USDC'}
         </Text>
@@ -106,7 +106,7 @@ const TracksModalBody = ({
           ''
         )}
         <Text
-          fontFamily={Pixel.style.fontFamily}
+          fontFamily={Triforce.style.fontFamily}
           fontSize={{ base: 'sm', md: 'md' }}
           pt='0.4rem'
         >

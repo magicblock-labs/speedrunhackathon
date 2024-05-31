@@ -1,19 +1,11 @@
 import {Container, Heading, Wrap, WrapItem} from '@chakra-ui/react';
 import React from 'react';
-import {Inktrap, Pixel} from '../FontFamily';
+import {Inktrap, Triforce} from '../FontFamily';
 import Sponsor from './Sponsor';
 
 const sponsorNames = [
-    'Bonk',
-    'GameShift',
-    'SolBlaze',
-    'Nokiamon',
-    'Solana Mobile',
-    'Turbo',
     'Solana Foundation',
-    'Metaplex',
-    'Lamport DAO',
-    'MetaCamp',
+    'The 76 Devs',
     'Magicblock',
 ];
 const SponsorsSection = () => {
@@ -27,13 +19,15 @@ const SponsorsSection = () => {
             alignItems='center'
         >
             <Heading
-                bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
                 bgClip={'text'}
-                py='2rem'
-                fontFamily={Pixel.style.fontFamily}
+                fontFamily={Triforce.style.fontFamily}
                 mx='auto'
                 maxW='fit-content'
-                fontSize={{base: '4xl', md: '6xl'}}
+                py='2rem'
+                fontSize={{ base: '4xl', md: '6xl' }}
+                color={'#8B041D'}
+                textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
+                bgGradient={`linear-gradient(90deg, #570303 35.03%, #570303 1.2%, #C80404 109.33%);`}
                 fontWeight='800'
             >
                 SPONSORS

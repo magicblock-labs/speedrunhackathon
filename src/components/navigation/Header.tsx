@@ -2,6 +2,7 @@ import { Flex, Button, Center } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import Logo from '../assets/logo/Logo';
 import {useEffect} from "react";
+import {Triforce} from "../FontFamily";
 
 export default function Header() {
   const router = useRouter();
@@ -29,11 +30,13 @@ export default function Header() {
         display={'flex'}
         alignItems='start'
         height={{ base: '2.2rem', md: '2.5rem' }}
-        fontSize={{ base: '14px', md: '18px' }}
-        href="https://dorahacks.io/hackathon/solanaspeedrun/detail"
+        fontSize={{ base: '16px', md: '18px' }}
+        fontFamily={Triforce.style.fontFamily}
+        lineHeight='14px'
+        href="#register"
         className="luma-checkout--button"
       >
-        Submit
+        signup
       </Button>
     </Flex>
   );

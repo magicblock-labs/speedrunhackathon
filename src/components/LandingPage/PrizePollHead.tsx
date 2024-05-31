@@ -9,7 +9,7 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import {Inktrap, Pixel} from '../FontFamily';
+import {Inktrap, Triforce} from '../FontFamily';
 import { BrowserName } from '../../broswerName';
 
 function kFormatter(num: number): number {
@@ -52,8 +52,8 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       borderColor={{ base: 'red', sm: 'green', md: 'blue', lg: 'pink' }}
       maxW={{ base: '85vw', sm: '80vw', md: '72vw', lg: '38rem' }}
       mx='auto'
-      alignItems={'start'}
-      background={'rgba(88, 82, 139, 0.2)'}
+      alignItems={'center'}
+      background={'rgba(255, 255, 255, 0.1)'}
       sx={{
         backdropFilter: 'blur(14px)',
       }}
@@ -69,7 +69,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         width: '10rem',
         height: '10rem',
         filter: 'blur(110px)',
-        backgroundColor: 'rgba(173, 166, 240, 0.9);',
+        backgroundColor: 'rgba(1, 63, 50, 0.9);',
       }}
       _after={{
         content: `" "`,
@@ -84,7 +84,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       }}
     >
       <Heading
-        fontFamily={Pixel.style.fontFamily}
+        fontFamily={Triforce.style.fontFamily}
         fontSize={{ base: 'xl', md: '3xl' }}
       >
         Prizes Worth
@@ -96,16 +96,18 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         justifyContent={'space-between'}
       >
         <Heading
-          bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
           bgClip={'text'}
-          fontFamily={Pixel.style.fontFamily}
+          fontFamily={Triforce.style.fontFamily}
+          color={'#8B041D'}
+          textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
+          bgGradient={`linear-gradient(90deg, #570303 35.03%, #570303 1.2%, #C80404 109.33%);`}
           fontSize={{ base: '6xl', md: '9xl' }}
           fontWeight='800'
         >
           {Math.round(kFormatter(totalPoolPrize))}k
         </Heading>
         <Text
-          fontFamily={Pixel.style.fontFamily}
+          fontFamily={Triforce.style.fontFamily}
           fontSize={{ base: '4xl', md: '6xl' }}
           pb={{ base: '0.5rem', md: '1.5rem' }}
           fontWeight={'500'}
@@ -115,7 +117,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       </HStack>
 
       <Text
-        fontFamily={Pixel.style.fontFamily}
+        fontFamily={Triforce.style.fontFamily}
         pt={'1rem'}
         fontSize={{ base: 'md', md: 'lg' }}
       >

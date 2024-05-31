@@ -6,21 +6,19 @@ const Background = () => {
   return (
     <Center
       position={'relative'}
-      overflow='hidden'
-      // border='1px solid'
-      // borderColor={['pink', 'yellow', 'red', 'blue', 'orange', 'white' ]}
+      overflow='visible'
       h={['1200px', '1200px', '1800px', '1600px', '2400px', '2600px']}
       w={['full']}
     >
       <Center
         zIndex={'-1'}
-        w={['1200px', '1200px', '1500px', '1700px', '110vw', '100vw']}
+        w={['1200px', '1200px', '1500px', '1700px', '100vw', '100vw']}
         position='absolute'
-        top={['40%', '50%', '40%', '50%', '30%', '30%']}
+        top={['40%', '75%', '60%', '80%', '40%', '45%']}
         left='50%'
         transform='translate(-50%, -50%)'
       >
-        <Image src='/img.jpg' alt='speedrun' width={4096} height={3500} />
+        <Image src='/img.jpg' alt='speedrun' width={2000} height={3147} />
       </Center>
     </Center>
   );

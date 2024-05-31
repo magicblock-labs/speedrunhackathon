@@ -1,5 +1,5 @@
 import {Container, Heading, Stack} from '@chakra-ui/react';
-import {Inktrap, Pixel} from '../FontFamily';
+import {Inktrap, Triforce} from '../FontFamily';
 import React from 'react';
 import {FullyOnChainCard, SolanaIntegratedCard} from './ImageCard';
 
@@ -14,7 +14,7 @@ const MainTracks = () => {
                 py='2rem'
                 fontSize={{base: '4xl', md: '6xl'}}
                 fontWeight='800'
-                fontFamily={Pixel.style.fontFamily}
+                fontFamily={Triforce.style.fontFamily}
             >
                 MAIN TRACKS
             </Heading>

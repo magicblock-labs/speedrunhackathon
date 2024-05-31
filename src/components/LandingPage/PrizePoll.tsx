@@ -54,7 +54,7 @@ const PrizePool = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       maxW={{ base: '85vw', sm: '80vw', md: '72vw', lg: '38rem' }}
       mx='auto'
       alignItems={'start'}
-      background={'rgba(88, 82, 139, 0.2)'}
+      background={'rgba(255, 255, 255, 0.1)'}
       sx={{
         backdropFilter: 'blur(14px)',
       }}
@@ -70,7 +70,7 @@ const PrizePool = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         width: '10rem',
         height: '10rem',
         filter: 'blur(110px)',
-        backgroundColor: 'rgba(173, 166, 240, 0.9);',
+        backgroundColor: 'rgba(1, 63, 50, 0.9);',
       }}
       _after={{
         content: `" "`,
