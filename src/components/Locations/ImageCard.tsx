@@ -204,7 +204,7 @@ const TurkeyCard = () => {
                     fontSize={{base: '4xl', md: '6xl'}}
                     fontFamily={Triforce.style.fontFamily}
                 >
-                    Turkey
+                    Istanbul
                 </Text>
             )}
             {hover && (
