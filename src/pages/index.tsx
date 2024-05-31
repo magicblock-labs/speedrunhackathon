@@ -83,13 +83,13 @@ export default function Home() {
             pt={'1rem'}
           >
             <Button
-              pt={{ base: '0.7rem', md: '0.8rem' }}
+                pt={{ base: '0.4rem', md: '0.4rem' }}
               display={'flex'}
               alignItems='start'
               justifyContent={'center'}
-              fontSize={{ base: '16px', md: '18px' }}
               fontFamily={Triforce.style.fontFamily}
-              lineHeight='14px'
+              fontSize={{ base: '16px', md: '18px' }}
+              lineHeight='1.7rem'
               variant='gradient'
              // onClick={handleClickScroll}
               as='a'
@@ -102,12 +102,12 @@ export default function Home() {
               as='a'
               href='https://solanaspeedrun.com/discord'
               target={'_blank'}
-              pt={{ base: '0.7rem', md: '0.8rem' }}
+              pt={{ base: '0.4rem', md: '0.4rem' }}
               display={'flex'}
               alignItems='start'
               justifyContent={'center'}
               fontSize={{ base: '16px', md: '18px' }}
-              lineHeight='14px'
+              lineHeight='1.7rem'
               fontFamily={Triforce.style.fontFamily}
               rightIcon={<FaDiscord />}
             >

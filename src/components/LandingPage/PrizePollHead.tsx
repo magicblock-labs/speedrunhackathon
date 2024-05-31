@@ -96,9 +96,11 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         justifyContent={'space-between'}
       >
         <Heading
-          bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
           bgClip={'text'}
           fontFamily={Triforce.style.fontFamily}
+          color={'#8B041D'}
+          textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
+          bgGradient={`linear-gradient(90deg, #570303 35.03%, #570303 1.2%, #C80404 109.33%);`}
           fontSize={{ base: '6xl', md: '9xl' }}
           fontWeight='800'
         >

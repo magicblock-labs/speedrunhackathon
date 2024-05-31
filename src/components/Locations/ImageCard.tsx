@@ -162,7 +162,7 @@ const NewYorkCard = () => {
                 height={{base: '300px'}}
                 position='absolute'
             >
-                <Image src={'/newyork.png'} height={400} width={555} alt='belgrade'/>
+                <Image src={'/newyork.jpg'} height={400} width={555} alt='belgrade'/>
             </Center>
         </Center>
     );
@@ -313,7 +313,7 @@ const TurkeyCard = () => {
                 height={{base: '300px'}}
                 position='absolute'
             >
-                <Image src={'/turkey.png'} height={400} width={555} alt='belgrade'/>
+                <Image src={'/turkey.jpg'} height={400} width={555} alt='belgrade'/>
             </Center>
         </Center>
     );
@@ -464,7 +464,7 @@ const SingaporeCard = () => {
                 height={{base: '300px'}}
                 position='absolute'
             >
-                <Image src={'/london.png'} height={400} width={555} alt='belgrade'/>
+                <Image src={'/london.jpg'} height={400} width={555} alt='belgrade'/>
             </Center>
         </Center>
     );
