@@ -45,13 +45,8 @@ const GrandPrize = () => {
             textAlign='center'
         >
 
-          Unstoppable games are:<br/>
-          <ul style={{listStyleType: 'none'}}>
-            <li>Extensible</li>
-            <li>Uncesurable</li>
-            <li>Cool</li>
-            <li></li>
-          </ul>
+          Unstoppable are entirely built on a decentralized ledger rather than on tradtional servers. <br/>
+          This makes them run forever and be more open by default. 
           <br/>
           PRIZES <br/>
           <ul style={{listStyleType: 'none'}}>
