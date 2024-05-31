@@ -152,7 +152,7 @@ const GlobalPrizes = ({
                 },
                 {
                   Title: 'Discord',
-                  Link: 'https://solanaspeedrun.com/discord',
+                  Link: 'https://discord.gg/tEmz8FHAAa',
                 },
               ],
               Judges: [

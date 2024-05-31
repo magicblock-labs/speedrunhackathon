@@ -106,7 +106,7 @@ export default function Home() {
             </Button>
             <Button
               as='a'
-              href='https://solanaspeedrun.com/discord'
+              href='https://discord.gg/tEmz8FHAAa'
               target={'_blank'}
               pt={{ base: '0.4rem', md: '0.4rem' }}
               display={'flex'}
