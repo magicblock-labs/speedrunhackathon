@@ -45,8 +45,8 @@ const GrandPrize = () => {
             textAlign='center'
         >
 
-          Unstoppable are entirely built on a decentralized ledger rather than on tradtional servers. <br/>
-          This makes them run forever and be more open by default. 
+          Unstoppable games are entirely built on a decentralized ledger rather than on tradtional servers. <br/>
+          This makes them run forever and be open by default. 
           <br/>
           PRIZES <br/>
           <ul style={{listStyleType: 'none'}}>
