@@ -8,7 +8,7 @@ export const styles = {
       body: Inktrap.style.fontFamily,
     },
     body: {
-      bg: mode('#000000', '#000000')(props),
+      bg: mode('#020403', '#020403')(props),
       color: mode('white', 'white')(props),
     },
     text: {

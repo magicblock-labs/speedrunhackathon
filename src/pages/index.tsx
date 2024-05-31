@@ -59,28 +59,34 @@ export default function Home() {
           </Heading>
           <Text
             px='1rem'
-            pt={{ base: '0rem', md: '0rem' }}
-            fontSize={{ base: '16px', sm: '22px', md: '34px' }}
+            pt={{ base: '2rem', md: '3rem' }}
+            fontSize={{ base: '16px', sm: '3px', md: '4.5rem' }}
             fontWeight='500'
             maxW='6xl'
             fontFamily={Triforce.style.fontFamily}
             textAlign={'center'}
+            color={'#8B041D'}
+            lineHeight='4rem'
+            textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
           >
+            game jam{' '}
             <br/>
-            Game Jam{' '}
-            <br/>
-            <Box as='span'  color={'white'}>
+            <Box
+                as='span'
+                color={'white'}
+                textShadow="none"
+                fontSize={{ base: '16px', sm: '2.5px', md: '3rem' }}
+            >
               June 29th - July 5th
             </Box>{' '}
           </Text>
           <HStack
-            mt='2rem'
             mx='auto'
             w='full'
             gap={{ base: '0.1rem', md: '0.5rem' }}
             alignItems={'center'}
             justifyContent='center'
-            pt={'1rem'}
+            pt={'3rem'}
           >
             <Button
                 pt={{ base: '0.4rem', md: '0.4rem' }}
@@ -96,7 +102,7 @@ export default function Home() {
               href='#register'
               target={'_blank'}
             >
-              Register
+              signup
             </Button>
             <Button
               as='a'
@@ -111,7 +117,7 @@ export default function Home() {
               fontFamily={Triforce.style.fontFamily}
               rightIcon={<FaDiscord />}
             >
-              Join Discord
+              discord
             </Button>
           </HStack>
         </VStack>
