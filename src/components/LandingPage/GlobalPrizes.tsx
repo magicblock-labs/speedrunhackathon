@@ -157,7 +157,7 @@ const GlobalPrizes = ({
               ],
               Judges: [
                 {
-                  Name: 'All Judges will be voting',
+                  Name: 'All Judges will be voting ',
                   Twitter: '',
                 },
               ],
