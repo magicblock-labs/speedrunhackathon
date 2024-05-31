@@ -45,7 +45,7 @@ const GrandPrize = () => {
             textAlign='center'
         >
 
-          Unstoppable games (or forever games) are entirely built on Solana rather than traditional game servers. This means they will run forever and can be open to mods/extensions by default. Learn how to build unstoppable games to be eligible for the main track prizes! <br/>
+          Learn how to build unstoppable games to be eligible for the main track prizes! <br/>
            
           <br/>
           <br/>
