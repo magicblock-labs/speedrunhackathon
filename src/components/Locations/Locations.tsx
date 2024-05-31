@@ -1,7 +1,7 @@
 import {Container, Heading, Stack} from '@chakra-ui/react';
 import {Triforce} from '../FontFamily';
 import React from 'react';
-import {NewYorkCard, TurkeyCard, SingaporeCard} from './ImageCard';
+import {NewYorkCard, TurkeyCard, LondonCard} from './ImageCard';
 
 const Locations = () => {
     return (
@@ -31,7 +31,7 @@ const Locations = () => {
                 spacing='0'
                 flexDir={{base: 'column', lg: 'row'}}
             >
-                <SingaporeCard/>
+                <LondonCard/>
                 <TurkeyCard/>
                 <NewYorkCard/>
             </Stack>
