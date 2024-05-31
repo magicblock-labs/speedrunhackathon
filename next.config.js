@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         source: "/register",
-        destination: "#register",
+        destination: "https://lu.ma/2ilus9cr",
         permanent: false
       }
     ]
