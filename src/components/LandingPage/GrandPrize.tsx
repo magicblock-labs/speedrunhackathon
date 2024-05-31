@@ -45,8 +45,9 @@ const GrandPrize = () => {
             textAlign='center'
         >
 
-          Learn how to build unstoppable games to be eligible for the main track prizes! <br/>
-           
+          Learn how to build unstoppable games <br/>
+          to be eligible for the main track prizes <br/>
+
           <br/>
           <br/>
           PRIZES <br/>
