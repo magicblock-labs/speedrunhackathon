@@ -17,11 +17,7 @@
     },
     {
         "Question": "What are the rules to submit my game?",
-        "Answer": "You can decide to take part in the Fully On-chain or Solana-integrated track. Sponsored tracks are additional tracsk you can particiapate in to win any combination of prizez, on top of the main tracks. As long as you respect the requirement of a track, you can opt-in into it. As a general rule, your game must be playable - make sure you create a fun game first and foremost!"
-    },
-    {
-        "Question": "Can I submit a game that I've already developed?",
-        "Answer": "No, games must be created specifically for Speedrun and must follow the Theme."
+        "Answer": "You can decide to take part in the main track building an unstoppable game and/or special tracks. Special tracks are additional tracks you can participate in to win any combination of prizes. As long as you respect the requirement of a track, you can opt-in into it. As a general rule, your game must be playable - make sure you create a fun game first and foremost!"
     },
     {
         "Question": "Can I use pre-existing code or assets?",

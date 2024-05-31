@@ -152,7 +152,8 @@ const NewYorkCard = () => {
                         pt={'12px'}
                         fontWeight='600'
                     >
-                        Soon {'->'}
+                        Soon
+                        {/*{'->'}*/}
                     </Button>
                 </VStack>
             )}
@@ -455,7 +456,8 @@ const LondonCard = () => {
                         pt={'12px'}
                         fontWeight='600'
                     >
-                        Soon {'->'}
+                        Soon
+                        {/*{'->'}*/}
                     </Button>
                 </VStack>
             )}

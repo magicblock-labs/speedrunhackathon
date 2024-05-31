@@ -33,7 +33,7 @@ export default function Header() {
         fontSize={{ base: '16px', md: '18px' }}
         fontFamily={Triforce.style.fontFamily}
         lineHeight='14px'
-        href="#register"
+        href="https://lu.ma/2ilus9cr"
         className="luma-checkout--button"
       >
         signup

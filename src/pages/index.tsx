@@ -99,7 +99,7 @@ export default function Home() {
               variant='gradient'
              // onClick={handleClickScroll}
               as='a'
-              href='#register'
+              href='https://lu.ma/2ilus9cr'
               target={'_blank'}
             >
               signup
