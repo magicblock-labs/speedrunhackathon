@@ -13,8 +13,6 @@ import {
 import TracksAndPrizes from '../components/LandingPage/TracksAndPrizes';
 import {Triforce} from '../components/FontFamily';
 import { FaDiscord } from 'react-icons/fa';
-import MainTracks from '../components/MainTracks/MainTracks';
-import { BrowserName } from '../broswerName';
 import HeadingTotalPrize from "../components/LandingPage/HeadingTotalPrize";
 import PresentedBy from "../components/LandingPage/PresentedBy";
 import FAQ from "../components/LandingPage/FAQ";

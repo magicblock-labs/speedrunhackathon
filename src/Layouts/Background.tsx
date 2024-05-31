@@ -12,9 +12,9 @@ const Background = () => {
     >
       <Center
         zIndex={'-1'}
-        w={['1200px', '1200px', '1500px', '1700px', '100vw', '100vw']}
+        w={['100vw', '100vw', '100vw', '100vw', '100vw', '100vw']}
         position='absolute'
-        top={['40%', '75%', '60%', '80%', '40%', '45%']}
+        top={['22%', '25%', '30%', '40%', '40%', '45%']}
         left='50%'
         transform='translate(-50%, -50%)'
       >
