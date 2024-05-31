@@ -15,7 +15,7 @@ import {Triforce} from '../FontFamily';
 import TotalPrize from "./TotalPrize";
 
 function getTotalTrackPrize(trackArray: any) {
-  let totalTrackPrize = 30000;
+  let totalTrackPrize = 10000;
   trackArray.forEach((track: { PrizeWorth: string, PrizeUnit: string }) => {
     if (track.PrizeWorth && track.PrizeUnit.startsWith("USDC")) {
       totalTrackPrize += parseInt(track.PrizeWorth);
@@ -33,7 +33,7 @@ const HeadingTotalPrize = () => {
     setActiveTrack(track);
     onOpen();
   };
-  const totalTrackPrize = 30000;
+  const totalTrackPrize = 10000;
   return (
     <>
       <Modal
@@ -71,7 +71,7 @@ const HeadingTotalPrize = () => {
           fontFamily={Triforce.style.fontFamily}
           textAlign='center'
         >
-          The GameJam theme will be announced <br/> before the event starts<Text fontSize={{ base: '4xl', md: '7xl' }}>👾️</Text>
+          The GameJam theme will be announced <br/> before the event starts<Text fontSize={{ base: '4xl', md: '7xl' }}>⚔️️</Text>
         </Heading>
         <br/>
         <br/>

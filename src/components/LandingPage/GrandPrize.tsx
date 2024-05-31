@@ -45,14 +45,15 @@ const GrandPrize = () => {
             textAlign='center'
         >
 
-          Unstoppable games are entirely built on a decentralized ledger rather than on tradtional servers. <br/>
-          This makes them run forever and be open by default. 
+          Learn how to build unstoppable games to be eligible for the main track prizes! <br/>
+           
+          <br/>
           <br/>
           PRIZES <br/>
           <ul style={{listStyleType: 'none'}}>
-            <li>1st Place: $3,000</li>
-            <li>2nd Place: $1,500</li>
-            <li>3rd Place: $500</li>
+            <li>1st Place: $5,000</li>
+            <li>2nd Place: $3,000</li>
+            <li>3rd Place: $2,000</li>
           </ul>
 
         </Wrap>

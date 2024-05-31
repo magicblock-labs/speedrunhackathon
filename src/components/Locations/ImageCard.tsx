@@ -90,11 +90,11 @@ const NewYorkCard = () => {
                         <Text fontWeight={'700'} fontSize='lg'>
                             New York
                         </Text>
-                        <Center
-                            transform={{base: 'none', md: 'scale(0.5) translateX(-3rem)'}}
-                        >
-                            <MetaCamp/>
-                        </Center>
+                        {/*<Center*/}
+                        {/*    transform={{base: 'none', md: 'scale(0.5) translateX(-3rem)'}}*/}
+                        {/*>*/}
+                        {/*    <MetaCamp/>*/}
+                        {/*</Center>*/}
                     </HStack>
                     <UnorderedList>
                         <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -118,7 +118,7 @@ const NewYorkCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-                                Pagoda View, 059191 Singapore
+                                Address will be announced soon
                             </Text>
                         </ListItem>
                         <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -141,18 +141,18 @@ const NewYorkCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-                                Open 24/7 for hacking
+
                             </Text>
                         </ListItem>
                     </UnorderedList>
                     <Button
                         as='a'
-                        href='https://lu.ma/2chxzpxf'
-                        target={'_blank'}
+                        href='#soon'
+                        // target={'_blank'}
                         pt={'12px'}
                         fontWeight='600'
                     >
-                        Register {'->'}
+                        Soon {'->'}
                     </Button>
                 </VStack>
             )}
@@ -204,7 +204,7 @@ const TurkeyCard = () => {
                     fontSize={{base: '4xl', md: '6xl'}}
                     fontFamily={Triforce.style.fontFamily}
                 >
-                    Turkey
+                    Istanbul
                 </Text>
             )}
             {hover && (
@@ -241,11 +241,11 @@ const TurkeyCard = () => {
                         <Text fontWeight={'700'} fontSize='lg'>
                             Istanbul
                         </Text>
-                        <Center
-                            transform={{base: 'none', md: 'scale(0.5) translateX(-3rem)'}}
-                        >
-                            <MetaCamp/>
-                        </Center>
+                        {/*<Center*/}
+                        {/*    transform={{base: 'none', md: 'scale(0.5) translateX(-3rem)'}}*/}
+                        {/*>*/}
+                        {/*    <MetaCamp/>*/}
+                        {/*</Center>*/}
                     </HStack>
                     <UnorderedList>
                         <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -269,7 +269,7 @@ const TurkeyCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-                                Pagoda View, 059191 Singapore
+                                Address will be announced soon
                             </Text>
                         </ListItem>
                         <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -292,18 +292,19 @@ const TurkeyCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-                                Open 24/7 for hacking
+
                             </Text>
                         </ListItem>
                     </UnorderedList>
                     <Button
                         as='a'
-                        href='https://lu.ma/2chxzpxf'
-                        target={'_blank'}
+                        href='#soon'
+                        // target={'_blank'}
                         pt={'12px'}
                         fontWeight='600'
                     >
-                        Register {'->'}
+                        Soon
+                        {/*{'->'}*/}
                     </Button>
                 </VStack>
             )}
@@ -319,7 +320,7 @@ const TurkeyCard = () => {
     );
 };
 
-const SingaporeCard = () => {
+const LondonCard = () => {
     const [hover, setHover] = useState(false);
     return (
         <Center
@@ -392,11 +393,11 @@ const SingaporeCard = () => {
                         <Text fontWeight={'700'} fontSize='lg'>
                             London
                         </Text>
-                        <Center
-                            transform={{base: 'none', md: 'scale(0.5) translateX(-3rem)'}}
-                        >
-                            <MetaCamp/>
-                        </Center>
+                        {/*<Center*/}
+                        {/*    transform={{base: 'none', md: 'scale(0.5) translateX(-3rem)'}}*/}
+                        {/*>*/}
+                        {/*    <MetaCamp/>*/}
+                        {/*</Center>*/}
                     </HStack>
                     <UnorderedList>
                         <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -420,7 +421,7 @@ const SingaporeCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-                                Pagoda View, 059191 Singapore
+                                Address will be announced soon
                             </Text>
                         </ListItem>
                         <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -443,18 +444,18 @@ const SingaporeCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-                                Open 24/7 for hacking
+
                             </Text>
                         </ListItem>
                     </UnorderedList>
                     <Button
                         as='a'
-                        href='https://lu.ma/2chxzpxf'
-                        target={'_blank'}
+                        href='#soon'
+                        // target={'_blank'}
                         pt={'12px'}
                         fontWeight='600'
                     >
-                        Register {'->'}
+                        Soon {'->'}
                     </Button>
                 </VStack>
             )}
@@ -470,4 +471,4 @@ const SingaporeCard = () => {
     );
 };
 
-export {TurkeyCard, SingaporeCard, NewYorkCard};
+export {TurkeyCard, LondonCard, NewYorkCard};
