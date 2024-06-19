@@ -1,12 +1,12 @@
     [
         {
             "Name": "Gameshift",
-            "PrizeWorth": 4000,
+            "PrizeWorth": 40000,
             "Sponsor": [
                 "Gameshift"
             ],
-            "PrizeUnit": "USDC",
-            "Description": "$4k worth of prizes for the best example game integrating gameshift API",
+            "PrizeUnit": "Worth of Prizes",
+            "Description": "$10k un USDC and $30k worth of credits for the best example game integrating Gameshift API",
             "Ideas": [],
             "Judges": [],
             "Links": [
