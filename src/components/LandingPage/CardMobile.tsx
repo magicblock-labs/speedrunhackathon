@@ -56,12 +56,14 @@ const CardMobile = ({ track }: PropsType) => {
           </Heading>
           <HStack alignItems="flex-end" justifyContent="center" w="full">
             <Heading
-                bgGradient="linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)"
+                bgGradient="linear-gradient(90deg, #570303 35.03%, #570303 1.2%, #C80404 109.33%)"
                 bgClip="text"
                 fontSize={{ base: '2rem', sm: '2rem', md: '2rem' }}
                 fontWeight="700"
                 pb={{ base: '0.25rem', md: '0rem' }}
                 fontFamily={Triforce.style.fontFamily}
+                color={'#8B041D'}
+                textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
                 textAlign="center"
             >
               {track

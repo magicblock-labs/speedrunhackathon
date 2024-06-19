@@ -115,12 +115,14 @@ const CardDesktop = ({
                 >
                     <Heading
                         bgGradient={
-                            'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
+                            'linear-gradient(90deg, #570303 35.03%, #570303 1.2%, #C80404 109.33%)'
                         }
                         bgClip={'text'}
                         fontSize={{ base: '4xl', sm: '5xl', md: '5xl' }}
                         fontWeight='700'
                         fontFamily={Triforce.style.fontFamily}
+                        color={'#8B041D'}
+                        textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
                     >
                         {track?.PrizeUnit === 'BONK'
                             ? (track?.PrizeWorth + 'B')
