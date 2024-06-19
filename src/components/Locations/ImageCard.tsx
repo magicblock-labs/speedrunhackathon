@@ -418,7 +418,7 @@ const BerlinCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-                                Address will be announced soon
+                                July 2, 2:00 PM - Jul 3, 8:00 PM
                             </Text>
                         </ListItem>
                         <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -441,19 +441,19 @@ const BerlinCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-
+                                w3.hub
                             </Text>
                         </ListItem>
                     </UnorderedList>
                     <Button
                         as='a'
-                        href='#soon'
-                        // target={'_blank'}
+                        href='https://lu.ma/brcluou7'
+                        target={'_blank'}
                         pt={'12px'}
                         fontWeight='600'
                     >
-                        Soon
-                        {/*{'->'}*/}
+                        Register
+                        {' ->'}
                     </Button>
                 </VStack>
             )}
