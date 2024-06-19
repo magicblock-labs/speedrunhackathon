@@ -43,9 +43,9 @@ const TracksModalBody = ({
         <Heading
           pt='0.5rem'
           fontFamily={Triforce.style.fontFamily}
-          fontSize={{ base: '22px', md: '26px' }}
+          fontSize={{ base: '28px', md: '36px' }}
         >
-          {track ? track?.Name : 'Hello World'}
+          {track ? track?.Name : ''}
         </Heading>
         <IconButton
           onClick={() => {
@@ -66,26 +66,28 @@ const TracksModalBody = ({
         alignItems={'end'}
         justifyContent={'space-between'}
       >
-        {/*<Heading*/}
-        {/*  bgGradient={*/}
-        {/*    'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'*/}
-        {/*  }*/}
-        {/*  fontFamily={Triforce.style.fontFamily}*/}
-        {/*  bgClip={'text'}*/}
-        {/*  lineHeight={'70px'}*/}
-        {/*  fontSize={{ base: '44px', md: '52px' }}*/}
-        {/*  fontWeight='700'*/}
-        {/*>*/}
-        {/*  {track*/}
-        {/*    ? `${*/}
-        {/*        track?.PrizeUnit === 'BONK'*/}
-        {/*          ? track?.PrizeWorth + 'B'*/}
-        {/*          : track?.PrizeUnit === 'BLZE' || track?.PrizeUnit === 'RAIN'?*/}
-        {/*          (track?.PrizeWorth + 'm')*/}
-        {/*          : track?.PrizeWorth*/}
-        {/*      }`*/}
-        {/*    : '00k'}*/}
-        {/*</Heading>*/}
+        <Heading
+          bgGradient={
+            'linear-gradient(90deg, #570303 35.03%, #570303 1.2%, #C80404 109.33%)'
+          }
+          fontFamily={Triforce.style.fontFamily}
+          bgClip={'text'}
+          lineHeight={'70px'}
+          fontSize={{ base: '44px', md: '52px' }}
+          color={'#8B041D'}
+          textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
+          fontWeight='700'
+        >
+          {track
+            ? `${
+                track?.PrizeUnit === 'BONK'
+                  ? track?.PrizeWorth + 'B'
+                  : track?.PrizeUnit === 'BLZE' || track?.PrizeUnit === 'RAIN'?
+                  (track?.PrizeWorth + 'm')
+                  : track?.PrizeWorth
+              }`
+            : '00k'}
+        </Heading>
         <Text
             fontSize={{ base: '16px', md: '1.5rem' }}
             pb='0.5rem'
@@ -106,8 +108,8 @@ const TracksModalBody = ({
           ''
         )}
         <Text
-          fontFamily={Triforce.style.fontFamily}
-          fontSize={{ base: 'sm', md: 'md' }}
+          fontFamily={Inktrap.style.fontFamily}
+          fontSize={{ base: '1rem', md: '1.5rem' }}
           pt='0.4rem'
         >
           {track ? track?.Description : ''}

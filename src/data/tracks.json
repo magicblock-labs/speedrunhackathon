@@ -1,18 +1,26 @@
     [
         {
-            "Name": "TO BE REVELEAD",
-            "PrizeWorth": 0,
+            "Name": "Gameshift",
+            "PrizeWorth": 40000,
             "Sponsor": [
-                "Magicblock"
+                "Gameshift"
             ],
-            "PrizeUnit": "",
-            "Description": "Special tracks will be announced soon. Stay tuned!",
+            "PrizeUnit": "Worth of Prizes",
+            "Description": "$10k un USDC and $30k worth of credits for the best example game integrating Gameshift API",
             "Ideas": [],
             "Judges": [],
             "Links": [
                 {
-                    "Title": "@magicblock",
-                    "Link": "https://twitter.com/magicblock"
+                    "Title": "Requirements",
+                    "Link": "./gameshift_requirements.pdf"
+                },
+                {
+                    "Title": "@GameShift_dev",
+                    "Link": "https://twitter.com/GameShift_dev"
+                },
+                {
+                    "Title": "gameshift.solanalabs.com",
+                    "Link": "https://gameshift.solanalabs.com/"
                 }
             ]
         }
