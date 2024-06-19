@@ -77,8 +77,8 @@ const CardMobile = ({ track }: PropsType) => {
                   : '00k'}
             </Heading>
             <Text
-                pb={{ base: '0', md: '0.3rem' }}
-                fontSize={{ base: '2rem', md: '2rem' }}
+                pb={{ base: '0.3rem', md: '0.3rem' }}
+                fontSize={{ base: '1.5rem', md: '2rem' }}
                 pl="1rem"
                 fontWeight="600"
                 fontFamily={Triforce.style.fontFamily}
