@@ -179,27 +179,29 @@ const TracksModalBody = ({
             </VStack>
           </>
         )}
-        {/*<VStack alignItems='start'>*/}
-        {/*  <Text*/}
-        {/*    fontFamily={Inktrap.style.fontFamily}*/}
-        {/*    pt='1.4rem'*/}
-        {/*    fontWeight={'700'}*/}
-        {/*    fontSize={{ base: 'md', md: 'lg' }}*/}
-        {/*  >*/}
-        {/*    Judges*/}
-        {/*  </Text>*/}
-        {/*  <UnorderedList*/}
-        {/*    fontFamily={Inktrap.style.fontFamily}*/}
-        {/*    fontSize={{ base: 'sm', md: 'md' }}*/}
-        {/*    pl='1.5rem'*/}
-        {/*  >*/}
-        {/*    {track.Judges?.map((Judge, index) => (*/}
-        {/*      <ListItem maxW='100vw' key={index}>*/}
-        {/*        {Judge.Name}*/}
-        {/*      </ListItem>*/}
-        {/*    ))}*/}
-        {/*  </UnorderedList>*/}
-        {/*</VStack>*/}
+        {track.Judges![0] && (
+          <VStack alignItems='start'>
+          <Text
+            fontFamily={Inktrap.style.fontFamily}
+            pt='1.4rem'
+            fontWeight={'700'}
+            fontSize={{ base: 'md', md: 'lg' }}
+          >
+            Judges
+          </Text>
+          <UnorderedList
+            fontFamily={Inktrap.style.fontFamily}
+            fontSize={{ base: 'sm', md: 'md' }}
+            pl='1.5rem'
+          >
+            {track.Judges?.map((Judge, index) => (
+              <ListItem maxW='100vw' key={index}>
+                {Judge.Name}
+              </ListItem>
+            ))}
+          </UnorderedList>
+        </VStack>
+        )}
         <Wrap py='1rem'>
           {track?.Links?.map((link, index) => (
             <WrapItem key={index}>

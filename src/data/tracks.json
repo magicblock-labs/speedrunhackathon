@@ -23,5 +23,43 @@
                     "Link": "https://gameshift.solanalabs.com/"
                 }
             ]
+        },
+        {
+            "Name": "Civic",
+            "PrizeWorth": 4000,
+            "Sponsor": [
+                "Civic"
+            ],
+            "PrizeUnit": "USDC",
+            "Description": "Tokenized Identity for Games. \n\nUse Civic’s advanced tokenized identity management toolset to add permissioning to your game both in the UI and at smart contract level to keep bad actors out, without adding too much friction.",
+            "Ideas": [
+                "Integrate Civic CAPTCHA Pass or Civic Liveness Pass to the signup flow to prevent bots from creating accounts",
+                "Integrate Civic Uniqueness Pass (one user, one wallet) to help prevent Sybil attacks to signup for a reward or opening a loot box",
+                "Add Civic Uniqueness Pass to enable a level, feature or content in the game only for players that complete the verification to block bad actors and bots."
+            ],
+            "Judges": [
+                {
+                    "Name": "Chris Hart",
+                    "Twitter": "https://x.com/hartcb"
+                },
+                {
+                    "Name": "Dan Kelleher",
+                    "Twitter": "https://x.com/danbkelleher"
+                },
+                {
+                    "Name": "Titus Capilnean",
+                    "Twitter": "https://x.com/titus_k"
+                }
+            ],
+            "Links": [
+                {
+                    "Title": "Requirements",
+                    "Link": "./gameshift_requirements.pdf"
+                },
+                {
+                    "Title": "@civickey",
+                    "Link": "https://twitter.com/civickey"
+                }
+            ]
         }
 ]
