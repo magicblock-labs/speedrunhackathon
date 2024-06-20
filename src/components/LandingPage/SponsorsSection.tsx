@@ -4,6 +4,8 @@ import {Inktrap, Triforce} from '../FontFamily';
 import Sponsor from './Sponsor';
 
 const sponsorNames = [
+    'GameShift',
+    'Civic',
     'Solana Foundation',
     'The 76 Devs',
     'Magicblock',
