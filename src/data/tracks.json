@@ -26,7 +26,7 @@
         },
         {
             "Name": "Civic",
-            "PrizeWorth": 4000,
+            "PrizeWorth": 5000,
             "Sponsor": [
                 "Civic"
             ],
@@ -54,7 +54,7 @@
             "Links": [
                 {
                     "Title": "Requirements",
-                    "Link": "./gameshift_requirements.pdf"
+                    "Link": "./civic.pdf"
                 },
                 {
                     "Title": "@civickey",
