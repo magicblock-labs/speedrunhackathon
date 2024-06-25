@@ -61,5 +61,31 @@
                     "Link": "https://twitter.com/civickey"
                 }
             ]
+        },
+        {
+            "Name": "Honeycomb",
+            "PrizeWorth": 600,
+            "Sponsor": [
+                "Honeycomb"
+            ],
+            "PrizeUnit": "USDC",
+            "Description": "600$ usd for the best games using Honeycomb protocol.",
+            "PrizeDetails": [
+                "1st - $300",
+                "2nd - $200",
+                "3rd - $100"
+            ],
+            "Ideas": [],
+            "Judges": [],
+            "Links": [
+                {
+                    "Title": "@honeycomb_prtcl",
+                    "Link": "https://x.com/honeycomb_prtcl"
+                },
+                {
+                    "Title": "Resources",
+                    "Link": "https://docs.honeycombprotocol.com/"
+                }
+            ]
         }
 ]

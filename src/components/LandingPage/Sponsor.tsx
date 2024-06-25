@@ -53,6 +53,7 @@ import {
   MetaCamp,
   SolShield,
   GameShift,
+  Honeycomb,
   Cubik, Gum, Backpack, Raindrops, SolanaMobile, Nokiamon, Metaplex, Turbo, The76Devs
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
@@ -181,6 +182,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Nokiamon />;
     case 'Turbo':
       return <Turbo />;
+    case 'Honeycomb':
+      return <Honeycomb />;
     default:
       return <></>;
   }
