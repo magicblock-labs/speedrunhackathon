@@ -6,6 +6,7 @@ import Sponsor from './Sponsor';
 const sponsorNames = [
     'GameShift',
     'Civic',
+    'Honeycomb',
     'Solana Foundation',
     'The 76 Devs',
     'Magicblock',

@@ -823,6 +823,14 @@ const Nokiamon = () => {
   );
 };
 
+const Honeycomb = () => {
+  return (
+      <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
+        <Image src='/honeycomb.png' alt='speedrun' width={800} height={800} />
+      </Center>
+  );
+};
+
 const Turbo = () => {
   return (
       <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
@@ -3216,5 +3224,6 @@ export {
   Raindrops,
   GameShift,
   SolanaMobile,
-  Turbo
+  Turbo,
+  Honeycomb
 };
