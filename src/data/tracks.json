@@ -63,6 +63,36 @@
             ]
         },
         {
+            "Name": "Metaplex",
+            "PrizeWorth": 50000,
+            "Sponsor": [
+                "Metaplex"
+            ],
+            "PrizeUnit": "MPLX",
+            "Description": "The Metaplex Foundation will be granting a total of 50,000 $MPLX to the top three projects that leverage Metaplex Core.",
+            "PrizeDetails": [
+                "1st - 25,000 MPLX",
+                "2nd - 15,000 MPLX",
+                "3rd - 10,000 MPLX"
+            ],
+            "Ideas": [],
+            "Judges": [],
+            "Links": [
+                {
+                    "Title": "Requirements",
+                    "Link": "./metaplex.pdf"
+                },
+                {
+                    "Title": "@metaplex",
+                    "Link": "https://x.com/metaplex"
+                },
+                {
+                    "Title": "Resources",
+                    "Link": "https://www.metaplex.com/"
+                }
+            ]
+        },
+        {
             "Name": "Honeycomb",
             "PrizeWorth": 600,
             "Sponsor": [
