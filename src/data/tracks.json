@@ -117,5 +117,29 @@
                     "Link": "https://docs.honeycombprotocol.com/"
                 }
             ]
+        },
+        {
+            "Name": "Turbo",
+            "PrizeWorth": 1000,
+            "Sponsor": [
+                "Turbo"
+            ],
+            "PrizeUnit": "USDC",
+            "Description": "$1k for the best game made with Turbo with an \"Infinite combo\" mechanic - Create a game that lets new players join and becomes progressively more chaotic as they play",
+            "PrizeDetails": [
+                "1st - $1000"
+            ],
+            "Ideas": [],
+            "Judges": [],
+            "Links": [
+                {
+                    "Title": "@makegamesfast",
+                    "Link": "https://x.com/makegamesfast"
+                },
+                {
+                    "Title": "Resources",
+                    "Link": "https://turbo.computer/"
+                }
+            ]
         }
 ]
