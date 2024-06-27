@@ -9,6 +9,7 @@ const sponsorNames = [
     'Metaplex',
     'Honeycomb',
     'Turbo',
+    'Sonic',
     'Solana Foundation',
     'The 76 Devs',
     'Magicblock',

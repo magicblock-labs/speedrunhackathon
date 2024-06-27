@@ -838,6 +838,15 @@ const Turbo = () => {
       </Center>
   );
 };
+
+const Sonic = () => {
+  return (
+      <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
+        <Image src='/sonic.png' alt='speedrun' width={200} height={400} />
+      </Center>
+  );
+};
+
 const Bonk = () => {
   return (
     <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
@@ -3225,5 +3234,6 @@ export {
   GameShift,
   SolanaMobile,
   Turbo,
+  Sonic,
   Honeycomb
 };

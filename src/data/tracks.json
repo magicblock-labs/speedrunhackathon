@@ -141,5 +141,29 @@
                     "Link": "https://turbo.computer/"
                 }
             ]
+        },
+        {
+            "Name": "Sonic",
+            "PrizeWorth": 6000,
+            "Sponsor": [
+                "Sonic"
+            ],
+            "PrizeUnit": "USDC",
+            "Description": "$6k for the best games deployed on Sonic testnet",
+            "PrizeDetails": [
+                "1st - $6000"
+            ],
+            "Ideas": [],
+            "Judges": [],
+            "Links": [
+                {
+                    "Title": "Requirements",
+                    "Link": "./sonic.pdf"
+                },
+                {
+                    "Title": "@SonicSVM",
+                    "Link": "https://x.com/SonicSVM"
+                }
+            ]
         }
 ]
