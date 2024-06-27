@@ -112,7 +112,7 @@ const NewYorkCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-                                Address will be announced soon
+                                Register to See Address
                             </Text>
                         </ListItem>
                         <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -135,19 +135,19 @@ const NewYorkCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-
+                                Jun 29 - Jul 3
                             </Text>
                         </ListItem>
                     </UnorderedList>
                     <Button
                         as='a'
-                        href='#soon'
-                        // target={'_blank'}
+                        href='https://lu.ma/ovsevw0e'
+                        target={'_blank'}
                         pt={'12px'}
                         fontWeight='600'
                     >
-                        Soon
-                        {/*{'->'}*/}
+                        Register
+                        {' ->'}
                     </Button>
                 </VStack>
             )}
@@ -570,7 +570,7 @@ const TurkeyCard = () => {
                                 pt='0.3rem'
                                 fontSize={{base: 'sm', md: 'sm'}}
                             >
-                                Address will be announced soon
+                                İstanbul, Planeth
                             </Text>
                         </ListItem>
                         <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -599,13 +599,13 @@ const TurkeyCard = () => {
                     </UnorderedList>
                     <Button
                         as='a'
-                        href='#soon'
-                        // target={'_blank'}
+                        href='https://docs.google.com/forms/d/e/1FAIpQLScwkMl9E5i1HDL6qA-fPCVpX_L706MQNL9Gt3fZ1IvxuImylA/viewform'
+                        target={'_blank'}
                         pt={'12px'}
                         fontWeight='600'
                     >
-                        Soon
-                        {/*{'->'}*/}
+                        Register
+                        {' ->'}
                     </Button>
                 </VStack>
             )}
