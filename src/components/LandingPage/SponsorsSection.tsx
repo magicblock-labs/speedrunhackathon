@@ -8,6 +8,7 @@ const sponsorNames = [
     'Civic',
     'Metaplex',
     'Honeycomb',
+    'Turbo',
     'Solana Foundation',
     'The 76 Devs',
     'Magicblock',
