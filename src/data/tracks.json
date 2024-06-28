@@ -191,5 +191,27 @@
                     "Link": "https://x.com/SonicSVM"
                 }
             ]
+        },
+        {
+            "Name": "Solana Foundation",
+            "PrizeWorth": 1700,
+            "Sponsor": [
+                "Solana Foundation"
+            ],
+            "PrizeUnit": "USDC",
+            "Description": "$1.7k for the best games made with Blinks \uD83D\uDC40",
+            "PrizeDetails": [
+                "1st - $1000",
+                "2st - $500",
+                "3st - $259"
+            ],
+            "Ideas": [],
+            "Judges": [],
+            "Links": [
+                {
+                    "Title": "Documentation",
+                    "Link": "https://solana.com/docs/advanced/actions"
+                }
+            ]
         }
 ]
