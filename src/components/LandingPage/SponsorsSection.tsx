@@ -10,6 +10,7 @@ const sponsorNames = [
     'Honeycomb',
     'Turbo',
     'Sonic',
+    'Helius',
     'Solana Foundation',
     'The 76 Devs',
     'Magicblock',
