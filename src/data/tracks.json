@@ -1,5 +1,31 @@
     [
         {
+            "Name": "MagicBlock",
+            "PrizeWorth": 1,
+            "Sponsor": [
+                "MagicBlock"
+            ],
+            "PrizeUnit": "Accelerator Program",
+            "Description": "The best game built with the MagicBlock engine will be eligible to receive:",
+            "PrizeDetails": [
+                "\uD83D\uDEE0\uFE0F Engineering support from our team",
+                "\uD83D\uDCB0 Fundraising advice and intro to Tier-1 VCs",
+                "\uD83D\uDE85 Help with go-to-market until Mainnet"
+            ],
+            "Ideas": [],
+            "Judges": [],
+            "Links": [
+                {
+                    "Title": "Resources",
+                    "Link": "https://docs.magicblock.gg/"
+                },
+                {
+                    "Title": "@magicblock",
+                    "Link": "https://x.com/magicblock"
+                }
+            ]
+        },
+        {
             "Name": "Gameshift",
             "PrizeWorth": 40000,
             "Sponsor": [
