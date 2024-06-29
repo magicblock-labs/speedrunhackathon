@@ -233,5 +233,29 @@
                     "Link": "https://github.com/ZenRepublic/GodotSolanaSDKDemoPackage"
                 }
             ]
+        },
+        {
+            "Name": "Feed",
+            "PrizeWorth": 500,
+            "Sponsor": [
+                "Feed"
+            ],
+            "PrizeUnit": "USDC",
+            "Description": "Create the best use case for integrating Feed Protocol’s RNG service into a gaming app, showcasing to make results fairer, achieve innovative integration, and decentralize outcomes to win $500.",
+            "PrizeDetails": [
+                "1st - $500"
+            ],
+            "Ideas": [],
+            "Judges": [],
+            "Links": [
+                {
+                    "Title": "Documentation",
+                    "Link": "https://mintlabsdev.github.io/feed-protocol/"
+                },
+                {
+                    "Title": "@feed_protocol",
+                    "Link": "https://x.com/feed_protocol"
+                }
+            ]
         }
 ]

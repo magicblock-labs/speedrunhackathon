@@ -863,6 +863,14 @@ const Rubians = () => {
   );
 };
 
+const Feed = () => {
+  return (
+      <Center h={{ base: '2rem', md: '3rem' }} w={{ base: '3rem', md: '12rem' }}>
+        <Image src='/feed.png' alt='speedrun' width={800} height={800} />
+      </Center>
+  );
+};
+
 const Metaplex = () => {
     return (
         <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
@@ -3244,5 +3252,6 @@ export {
   Turbo,
   Sonic,
   Honeycomb,
-  Rubians
+  Rubians,
+  Feed
 };
