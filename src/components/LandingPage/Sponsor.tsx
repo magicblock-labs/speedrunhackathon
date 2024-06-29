@@ -53,6 +53,7 @@ import {
   MetaCamp,
   SolShield,
   GameShift,
+  Rubians,
   Honeycomb,
   Sonic,
   Cubik, Gum, Backpack, Raindrops, SolanaMobile, Nokiamon, Metaplex, Turbo, The76Devs
@@ -183,6 +184,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Nokiamon />;
     case 'Turbo':
       return <Turbo />;
+    case 'Rubians':
+      return <Rubians />;
     case 'Sonic':
       return <Sonic />;
     case 'Honeycomb':

@@ -855,6 +855,14 @@ const Bonk = () => {
   );
 };
 
+const Rubians = () => {
+  return (
+      <Center h={{ base: '2rem', md: '3rem' }} w={{ base: '3rem', md: '12rem' }}>
+        <Image src='/rubians.png' alt='speedrun' width={100} height={50} />
+      </Center>
+  );
+};
+
 const Metaplex = () => {
     return (
         <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
@@ -3235,5 +3243,6 @@ export {
   SolanaMobile,
   Turbo,
   Sonic,
-  Honeycomb
+  Honeycomb,
+  Rubians
 };
