@@ -71,7 +71,7 @@ const HeadingTotalPrize = () => {
           fontFamily={Triforce.style.fontFamily}
           textAlign='center'
         >
-          The GameJam theme will be announced <br/> before the event starts<Text fontSize={{ base: '4xl', md: '7xl' }}>⚔️️</Text>
+          The GameJam theme is: <br/><br/> <Text fontSize={{ base: '4xl', md: '6xl' }}> Last Forever ⌛ </Text>
         </Heading>
         <br/>
         <br/>
