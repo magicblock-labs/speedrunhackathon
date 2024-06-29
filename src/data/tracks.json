@@ -213,5 +213,25 @@
                     "Link": "https://solana.com/docs/advanced/actions"
                 }
             ]
+        },
+        {
+            "Name": "Rubians",
+            "PrizeWorth": 300,
+            "Sponsor": [
+                "Rubians"
+            ],
+            "PrizeUnit": "USDC",
+            "Description": "$300 for the best game built with the Solana Godot SDK",
+            "PrizeDetails": [
+                "1st - $300"
+            ],
+            "Ideas": [],
+            "Judges": [],
+            "Links": [
+                {
+                    "Title": "Documentation",
+                    "Link": "https://github.com/ZenRepublic/GodotSolanaSDKDemoPackage"
+                }
+            ]
         }
 ]
