@@ -12,6 +12,7 @@ const sponsorNames = [
     'Sonic',
     'Helius',
     'Rubians',
+    'Feed',
     'Solana Foundation',
     'The 76 Devs',
     'Magicblock',

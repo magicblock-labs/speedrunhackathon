@@ -5,6 +5,7 @@ import {
   SolanaFoundation,
   BridgeSplit,
   Phantom,
+  Feed,
   CrossMint,
   OpenBook,
   HXRO,
@@ -184,6 +185,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Nokiamon />;
     case 'Turbo':
       return <Turbo />;
+    case 'Feed':
+      return <Feed />;
     case 'Rubians':
       return <Rubians />;
     case 'Sonic':
