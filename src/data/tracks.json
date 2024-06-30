@@ -257,5 +257,30 @@
                     "Link": "https://x.com/feed_protocol"
                 }
             ]
+        },
+        {
+            "Name": "Eclipse",
+            "PrizeWorth": 1000,
+            "Sponsor": [
+                "Eclipse"
+            ],
+            "PrizeUnit": "USDC",
+            "Description": "Use your creativity to build a project with viral effects, ideally with a social element to it. Can be degenerate, can be not (although the market seems to like degenerate games).\nBonus points for the type of games that will get CT going and will bring users a ton of fun/speculation.",
+            "PrizeDetails": [
+                "1st - $500",
+                "1st - $500"
+            ],
+            "Ideas": [],
+            "Judges": [],
+            "Links": [
+                {
+                    "Title": "Requirements",
+                    "Link": "./ecplise.pdf"
+                },
+                {
+                    "Title": "@EclipseFND",
+                    "Link": "https://x.com/EclipseFND"
+                }
+            ]
         }
 ]
