@@ -1,6 +1,6 @@
 import {Container, Heading, Wrap, WrapItem} from '@chakra-ui/react';
 import React from 'react';
-import {Inktrap, Triforce} from '../FontFamily';
+import {Triforce} from '../FontFamily';
 import Sponsor from './Sponsor';
 
 const sponsorNames = [
@@ -32,7 +32,7 @@ const SponsorsSection = () => {
                 fontFamily={Triforce.style.fontFamily}
                 mx='auto'
                 maxW='fit-content'
-                py={{ base: '0', md: '2rem' }}
+                py={{ base: '5rem', md: '2rem' }}
                 fontSize={{ base: '4xl', md: '6xl' }}
                 color={'#8B041D'}
                 textShadow="0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF, 0 0 1.5px #FFFFFF"
