@@ -22,6 +22,7 @@ import Resources from "../components/LandingPage/Resources";
 import GrandPrize from "../components/LandingPage/GrandPrize";
 import SponsorsSection from "../components/LandingPage/SponsorsSection";
 import Locations from "../components/Locations/Locations";
+import Judges from "../components/LandingPage/Judges";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -97,10 +98,10 @@ export default function Home() {
               variant='gradient'
              // onClick={handleClickScroll}
               as='a'
-              href='https://lu.ma/2ilus9cr'
+              href='https://itch.io/jam/solana-speedrun-3'
               target={'_blank'}
             >
-              signup
+              submit
             </Button>
             <Button
               as='a'
@@ -142,6 +143,9 @@ export default function Home() {
         </Center>
         <Center>
           <FAQ />
+        </Center>
+        <Center>
+          <Judges />
         </Center>
         <Center py={{ base: '2rem', md: '12rem' }} px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
           <SponsorsSection />

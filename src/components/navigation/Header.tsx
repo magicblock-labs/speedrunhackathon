@@ -33,10 +33,10 @@ export default function Header() {
         fontSize={{ base: '16px', md: '18px' }}
         fontFamily={Triforce.style.fontFamily}
         lineHeight='14px'
-        href="https://lu.ma/2ilus9cr"
+        href="https://itch.io/jam/solana-speedrun-3"
         className="luma-checkout--button"
       >
-        signup
+        submit
       </Button>
     </Flex>
   );
